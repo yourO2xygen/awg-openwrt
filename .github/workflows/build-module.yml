@@ -17,16 +17,16 @@ jobs:
             target: ath79
             subtarget: nand
             vermagic: "5c9be91b90bda5403fe3a7c4e8ddb26f"
-          - tag: "23.05.0"
+          - tag: "r27072-17ecd37c6a"
             pkgarch: mipsel_24kc
             target: ramips
-            subtarget: mt7621
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
-          - tag: "23.05.2"
+            subtarget: mt76x8
+            vermagic: "b3e8a3a01d4be715fd945f3218724e4e"
+          - tag: "SNAPSHOT"
             pkgarch: mipsel_24kc
             target: ramips
-            subtarget: mt7621
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
+            subtarget: mt76x8
+            vermagic: "b3e8a3a01d4be715fd945f3218724e4e"
 
     steps:
       - uses: actions/checkout@v4
